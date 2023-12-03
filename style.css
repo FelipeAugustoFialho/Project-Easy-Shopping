@@ -11,29 +11,35 @@
 div-left {
 
     display: inline-block;
+    position: absolute;
 
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-top: 130px;
 
 
 
 }
 
 div-right {
-    text-align: center;
+    
     display: inline-block;
 
     background: rgba(93, 93, 125, 0.16);
-    margin-left: 360px;
+    margin-left: 812px;
     height: 100%;
     width: 56%;
-    position: fixed;
+    position: absolute;
+    height: 200%;
 
 }
 
 img {
     position: relative;
-    margin-top: 200px;
-    margin-left: 220px;
+    margin-top: 128px;
+    margin-left: 677px;
+    width: 456px;
+    height: 468.95px;
+
 
 }
 
@@ -43,6 +49,7 @@ img {
     position: relative;
     margin-right: 41px;
     cursor: pointer;
+    margin-left: 35px;
 
 
 }
@@ -81,6 +88,8 @@ p {
 @media (max-width: 900px) {
     div-left {
         margin-left: -20px;
+        margin-top: 58px;
+        
 
 
     }
@@ -112,11 +121,23 @@ p {
 
     img {
         margin: 0;
-        width: 370px;
-        height: 426px;
-        margin-top: 10px;
+        width: 271px;
+        height: 323px;
+        margin-top: 480px;
+        margin-left: 51px;
+        
+             
+    }
+    div-right{
+        margin: 0;
+        width: 413px;
+        height: 480px;
+        margin-top: 440px;
+        
         background: rgba(93, 93, 125, 0.16);
-
-
+        
+    }
+    .buttons{
+        display: none;
     }
 }
